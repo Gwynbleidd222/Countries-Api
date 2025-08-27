@@ -25,7 +25,7 @@ const CountryPage: React.FC<Props> = ({ countries, isDarkMode }) => {
             </div>
 			<div className='lg:flex lg:justify-between lg:items-center lg:max-w-[1200px] lg:mx-auto'>
 				<img
-					className='mt-12 border-b-light-mode-background shadow-md object-cover max-w-[550px] max-h-[390px]'
+					className='mt-12 border-b-light-mode-background shadow-md object-cover lg:max-w-[550px] lg:max-h-[390px]'
 					src={country.flags.svg}
 					alt={country.name.common}
 				/>
