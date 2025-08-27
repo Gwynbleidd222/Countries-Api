@@ -25,7 +25,7 @@ const CountryCard: React.FC<CountryCardProps> = ({ country, isDarkMode }) => {
 						Region: <span className='font-light'>{country.region}</span>
 					</p>
 					<p className='mb-4'>
-						Capital: <span className='font-light overflow-wrap'>{country.capital?.join(', ')}</span>
+						Capital: <span className='font-light'>{country.capital?.join(', ')}</span>
 					</p>
 				</div>
 			</div>
