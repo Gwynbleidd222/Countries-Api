@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+    --dark-mode-element: 209, 23%, 22%;
+    --dark-mode-background: 207, 26%, 17%;
+
+    --light-mode-text: 200, 15%, 8%;
+    --light-mode-input: 0, 0%, 50%;
+    --light-mode-background: 0, 0%, 99%;
+
+    --white: 0, 100%, 100%;
+} */
+
+
+
+.dark-nav {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 100%, 100%);
+}
+
+.light-nav {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(200, 15%, 8%);
+}
+
+.dark {
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 100%, 100%);
+}
+
+.light {
+    background-color: hsl(0, 0%, 99%);
+    color: hsl(200, 15%, 8%);
+}
